@@ -18,8 +18,14 @@ h1 {
   text-align: center;
 }
 
-p {
+h2, h3, h4, p {
   font-family: 'QueensPark';
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   text-align: center;
+  display: block;
+}
+
+h2 {
+  line-height: 0.8;
+  margin: 0;
 }
