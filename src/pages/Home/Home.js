@@ -15,7 +15,7 @@ function Home() {
           color: 'red',
           borderColor: 'red',
           marginTop: 0,
-          marginBottom: '1rem'
+          marginBottom: '4rem'
         }}
       />
       <TinyWrapper>
