@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
     background-color: #fffdd0;
     width: 100%;
     height: 100vh;
-    font-family: Chomsky;
+    font-family: 'Chomsky';
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,5 +17,6 @@ export const HeadlinesContainer = styled.div`
 `
 
 export const TinyWrapper = styled.div`
-    margin-bottom: 0.5rem;
+    margin-bottom: 3rem;
+    margin-top: 0;
 `
