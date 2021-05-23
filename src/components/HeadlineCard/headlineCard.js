@@ -5,8 +5,8 @@ function HeadlineCard() {
     <Card>
       <CardImage/>
       <CardContainer>
-        <CardTitle>Sobre mim</CardTitle>
-        <CardSubtitle>Informações sobre quem sou eu, de onde vim, etc</CardSubtitle>
+        <CardTitle>About Me</CardTitle>
+        <CardSubtitle>Find out a little about who <br/> I am and my history. <br/> (And also some things that I like).</CardSubtitle>
       </CardContainer>
     </Card>
   );

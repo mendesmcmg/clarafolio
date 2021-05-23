@@ -12,6 +12,7 @@ export const Card = styled.div`
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   &:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
   }
 `;
 
@@ -21,6 +22,8 @@ export const CardContainer = styled.div`
   align-content: center;
   justify-content: space-around;
   padding: 0.75rem;
+  height: 100%;
+  width: 50%;
 `;
 
 export const CardTitle = styled.h3`
@@ -36,7 +39,7 @@ export const CardSubtitle = styled.h4`
 export const CardImage = styled.img`
   border-radius: 5px 5px 0 0;
   height: 100%;
-  width: 75%;
+  width: 50%;
   object-fit: contain;
   background: url(${profile});
   background-position: center;
